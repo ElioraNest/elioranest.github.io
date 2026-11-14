@@ -1,0 +1,32 @@
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f2">
+
+  <!-- Bahasa pilihan pembaca (EN / ID / FA / ZH): dibaca sebelum halaman tampil agar tidak berkedip -->
+  <script>
+    (function(){
+      var ok = {en:1, id:1, fa:1, zh:1};
+      var tags = {en:'en', id:'id', fa:'fa-AF', zh:'zh-Hans'};
+      var lang = 'en';
+      try{
+        var saved = localStorage.getItem('elioraLang');
+        if(ok[saved]){ lang = saved; }
+        else{
+          var p = ((navigator.language || '') + '').toLowerCase().split('-')[0];
+          if(p === 'prs'){ p = 'fa'; }
+          if(ok[p]){ lang = p; }
+        }
+      }catch(e){}
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', tags[lang]);
+    })();
+  </script>
+
+  <!-- SEO otomatis: judul, deskripsi, canonical, Open Graph -->
+  {% seo %}
+
+  <link rel="icon" type="image/jpeg" href="/assets/img/logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600&family=Noto+Sans+SC:wght@400;500&family=Vazirmatn:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/assets/css/style.css">

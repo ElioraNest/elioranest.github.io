@@ -1,0 +1,27 @@
+# ===== Pengaturan situs ElioraNest (Jekyll di GitHub Pages) =====
+title: ElioraNest
+tagline: Faith. Simplicity. Christ.
+description: >-
+  A quiet place to reflect on God's Word: devotionals, Bible studies, and a
+  journey of faith in English, Indonesian, Dari and Chinese.
+url: https://elioranest.github.io
+baseurl: ""
+lang: en
+logo: /assets/img/logo.jpg
+
+# Alamat renungan: elioranest.github.io/renungan/judul-renungan/
+permalink: /renungan/:title/
+
+plugins:
+  - jekyll-seo-tag
+
+# Layout otomatis: post memakai "post", halaman di folder halaman/ memakai "page"
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "halaman" }
+    values: { layout: page }
+
+exclude:
+  - README.md
+  - .pages.yml

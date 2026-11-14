@@ -1,0 +1,29 @@
+# Isi kotak di Beranda. Diedit lewat Pages CMS (menu "Beranda") atau langsung di file ini.
+ayat_hari_ini: |
+  <div class="t-en"><p>“No one who abides in him keeps on sinning.”</p><span class="verse-ref">1 John 3:6 (ESV)</span></div>
+  <div class="t-id"><p>“Setiap orang yang tinggal dalam Dia tidak terus menerus berbuat dosa.”</p><span class="verse-ref">1 Yohanes 3:6 (AYT)</span></div>
+  <div class="t-fa" lang="fa-AF"><p>«هر که در او می‌ماند، پیوسته گناه نمی‌کند.»</p><span class="verse-ref">اول یوحنا ۳:۶</span></div>
+  <div class="t-zh" lang="zh-Hans"><p>“凡住在他里面的人，不会继续犯罪。”</p><span class="verse-ref">约翰一书 3:6</span></div>
+kata_ibrani: |
+  <p class="hebrew-word" lang="he" dir="rtl">חָכְמָה</p>
+  <p class="hebrew-translit">Chokhmah</p>
+  <p class="t-en">Wisdom. It describes the ability to understand, discern, and act rightly, not merely to possess knowledge.</p>
+  <p class="t-id">Hikmat atau kebijaksanaan. Kata ini menggambarkan kemampuan untuk memahami, membedakan yang benar, dan bertindak dengan tepat, bukan sekadar memiliki pengetahuan.</p>
+  <p class="t-fa" lang="fa-AF">حکمت. این واژه توانایی فهمیدن، تشخیص دادن و درست عمل کردن را توصیف می‌کند، نه فقط داشتن دانش را.</p>
+  <p class="t-zh" lang="zh-Hans">智慧。这个词描述的是理解、分辨并正确行事的能力，而不仅仅是拥有知识。</p>
+  <p class="t-en">“The fear of the LORD is the beginning of wisdom, and the knowledge of the Holy One is insight.”<span class="verse-ref">Proverbs 9:10 (ESV)</span></p>
+  <p class="t-id">“Permulaan hikmat adalah takut akan TUHAN, dan mengenal Yang Mahakudus adalah pengertian.”<span class="verse-ref">Amsal 9:10 (TB)</span></p>
+  <p class="t-fa" lang="fa-AF">«ترس خداوند آغاز حکمت است، و شناخت آن قدوس، فهم است.»<span class="verse-ref">امثال ۹:۱۰</span></p>
+  <p class="t-zh" lang="zh-Hans">“敬畏耶和华是智慧的开端，认识至圣者便是聪明。”<span class="verse-ref">箴言 9:10</span></p>
+  <p><a href="https://elioranest.blogspot.com/p/knowing-name.html"><span class="t-en">Learn more</span><span class="t-id">Pelajari selengkapnya</span><span class="t-fa" lang="fa-AF">بیشتر بدانید</span><span class="t-zh" lang="zh-Hans">了解更多</span></a></p>
+artikel_akhir_pekan: |
+  <h3><span class="t-en">What Causes Sin in the Process of Renewal</span><span class="t-id">Penyebab Dosa dalam Proses Pembaruan</span><span class="t-fa" lang="fa-AF">علت گناه در روند تجدید</span><span class="t-zh" lang="zh-Hans">更新过程中犯罪的原因</span></h3>
+  <p class="weekend-meta t-en">Pastor Eric Chang, Chapter 9 of Becoming a New Person. Source: Cahaya Pengharapan Ministries. Article in Indonesian.</p>
+  <p class="weekend-meta t-id">Pastor Eric Chang, Bab 9 dari Becoming a New Person. Sumber: Cahaya Pengharapan Ministries. Artikel dalam bahasa Indonesia.</p>
+  <p class="weekend-meta t-fa" lang="fa-AF">پاستور اریک چانگ، فصل ۹ از کتاب Becoming a New Person. منبع: Cahaya Pengharapan Ministries. مقاله به زبان اندونزیایی.</p>
+  <p class="weekend-meta t-zh" lang="zh-Hans">张宏兴牧师（Eric Chang），《Becoming a New Person》第9章。来源：Cahaya Pengharapan Ministries。文章为印尼文。</p>
+  <p class="t-en">Why do we still fall, even when we know what is right? This writing looks at four things that can hold back our renewal: the pull of the world, the inability to tell good from evil, old habits of thinking, and a lack of knowledge. Renewal begins with honestly looking at ourselves.</p>
+  <p class="t-id">Mengapa kita masih jatuh, padahal kita tahu apa yang benar? Tulisan ini membahas empat hal yang dapat menghambat pembaruan kita: daya tarik dunia, ketidakmampuan membedakan yang baik dan yang jahat, kebiasaan berpikir yang lama, serta kurangnya pengetahuan. Pembaruan dimulai dari kejujuran melihat diri sendiri.</p>
+  <p class="t-fa" lang="fa-AF">چرا با آنکه می‌دانیم چه درست است، باز هم می‌لغزیم؟ این نوشته چهار چیز را بررسی می‌کند که می‌تواند جلوی تجدید ما را بگیرد: کشش دنیا، ناتوانی در تشخیص نیک از بد، عادت‌های کهنهٔ فکری، و کمبود شناخت. تجدید با نگاهی صادقانه به خودمان آغاز می‌شود.</p>
+  <p class="t-zh" lang="zh-Hans">为什么我们明知何为正确，却仍会跌倒？本文探讨可能阻碍我们更新的四件事：世界的吸引、无法分辨善恶、旧有的思维习惯，以及知识的缺乏。更新始于诚实地审视自己。</p>
+  <p><a class="text-link" href="https://cahayapengharapan.org/penyebab-dosa-dalam-proses-pembaruan/" hreflang="id" target="_blank" rel="noopener"><span class="t-en">Read the full article (in Indonesian) at Cahaya Pengharapan</span><span class="t-id">Baca artikel lengkap di Cahaya Pengharapan</span><span class="t-fa" lang="fa-AF">خواندن مقالهٔ کامل (به اندونزیایی) در Cahaya Pengharapan</span><span class="t-zh" lang="zh-Hans">在 Cahaya Pengharapan 阅读全文（印尼文）</span></a></p>

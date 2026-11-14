@@ -1,0 +1,5 @@
+<article class="post-item" data-labels="{{ include.post.labels | join: '|' | escape }}">
+  <p class="post-item-meta"><time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%-d %b %Y" }}</time>{% if include.post.labels.size > 0 %} · {{ include.post.labels | join: ", " }}{% endif %}</p>
+  <h3 class="post-item-title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h3>
+  {% if include.post.description %}<p class="post-item-desc">{{ include.post.description }}</p>{% endif %}
+</article>

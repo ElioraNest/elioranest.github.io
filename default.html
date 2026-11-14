@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content"><span class="t-en">Skip to content</span><span class="t-id">Lewati ke konten</span><span class="t-fa" lang="fa-AF">رفتن به محتوا</span><span class="t-zh" lang="zh-Hans">跳到正文</span></a>
+
+{% include header.html %}
+  <div class="content-wrap">
+    <main class="main-column" id="main-content">
+{{ content }}
+    </main>
+  </div>
+
+{% include footer.html %}
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/music.js"></script>
+</body>
+</html>

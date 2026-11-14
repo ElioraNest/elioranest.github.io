@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post">
+  <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+      <li><a href="/"><span class="t-en">Home</span><span class="t-id">Beranda</span><span class="t-fa" lang="fa-AF">خانه</span><span class="t-zh" lang="zh-Hans">首页</span></a></li>
+      <li><a href="/renungan/"><span class="t-en">Devotionals</span><span class="t-id">Renungan</span><span class="t-fa" lang="fa-AF">تأملات روحانی</span><span class="t-zh" lang="zh-Hans">灵修</span></a></li>
+    </ol>
+  </nav>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <div class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+    {% if page.labels.size > 0 %}
+    <span class="post-labels">{% for label in page.labels %}<a href="/renungan/?label={{ label | url_encode }}">{{ label }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+    {% endif %}
+  </div>
+
+  <div class="post-body">
+{{ content }}
+  </div>
+
+  {% if page.labels.size > 0 %}
+  <div class="post-labels-footer">
+    <span class="t-en">Topics:</span><span class="t-id">Topik:</span><span class="t-fa" lang="fa-AF">موضوع‌ها:</span><span class="t-zh" lang="zh-Hans">主题：</span>
+    {% for label in page.labels %}<a href="/renungan/?label={{ label | url_encode }}">{{ label }}</a>{% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.previous or page.next %}
+  <nav class="section-nav" aria-label="Post navigation">
+    <div class="section-pager">
+      {% if page.next %}
+      <a class="sp-prev" href="{{ page.next.url }}"><small><span class="t-en">‹ Newer</span><span class="t-id">‹ Lebih baru</span><span class="t-fa" lang="fa-AF">جدیدتر ›</span><span class="t-zh" lang="zh-Hans">‹ 较新</span></small><span>{{ page.next.title }}</span></a>
+      {% endif %}
+      {% if page.previous %}
+      <a class="sp-next" href="{{ page.previous.url }}"><small><span class="t-en">Older ›</span><span class="t-id">Lebih lama ›</span><span class="t-fa" lang="fa-AF">‹ قدیمی‌تر</span><span class="t-zh" lang="zh-Hans">较早 ›</span></small><span>{{ page.previous.title }}</span></a>
+      {% endif %}
+    </div>
+  </nav>
+  {% endif %}
+</article>
