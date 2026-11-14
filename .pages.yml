@@ -1,0 +1,100 @@
+media:
+  input: assets/img/uploads
+  output: /assets/img/uploads
+
+content:
+
+  - name: renungan
+    label: Renungan (Posts)
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    filename:
+      template: "{year}-{month}-{day}-{primary}.html"
+      field: create
+    view:
+      primary: title
+      fields: [title, date, labels]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Judul (Indonesia | English)
+        type: string
+        required: true
+      - name: date
+        label: Tanggal terbit
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: labels
+        label: Label
+        type: select
+        options:
+          multiple: true
+          values:
+            - Renungan Harian
+            - Renungan Akhir Pekan
+            - Renungan Pemuda
+            - Renungan Berseri
+            - Doa
+            - Kajian
+            - Kesaksian
+            - Contoh
+      - name: description
+        label: Deskripsi untuk Google (maks. 150 karakter)
+        type: text
+        options:
+          maxlength: 150
+      - name: body
+        label: Isi renungan (HTML)
+        type: code
+        options:
+          format: html
+
+  - name: halaman
+    label: Halaman (Pages)
+    type: collection
+    path: halaman
+    format: yaml-frontmatter
+    filename: "{primary}.html"
+    view:
+      primary: title
+      fields: [title]
+    fields:
+      - name: title
+        label: Judul (English | Indonesia)
+        type: string
+        required: true
+      - name: description
+        label: Deskripsi untuk Google (maks. 150 karakter)
+        type: text
+        options:
+          maxlength: 150
+      - name: body
+        label: Isi halaman (HTML)
+        type: code
+        options:
+          format: html
+
+  - name: beranda
+    label: Beranda (Widget)
+    type: file
+    path: _data/beranda.yml
+    format: yaml
+    fields:
+      - name: ayat_hari_ini
+        label: Ayat hari ini (HTML)
+        type: code
+        options:
+          format: html
+      - name: kata_ibrani
+        label: Kata Ibrani hari ini (HTML)
+        type: code
+        options:
+          format: html
+      - name: artikel_akhir_pekan
+        label: Artikel akhir pekan (HTML)
+        type: code
+        options:
+          format: html
